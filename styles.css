@@ -255,6 +255,10 @@ h2 .accent{color:var(--teal);}
 
 /* ---------- semiconductor ---------- */
 .semi{background:var(--white);}
+.pillars-caption{
+  font-family:var(--mono);font-size:.8rem;letter-spacing:.05em;
+  color:var(--ink-soft);margin-bottom:1.1rem;
+}
 .pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:1.3rem;margin-bottom:4rem;}
 .pillar{
   border:1px solid var(--line);border-radius:16px;padding:2rem 1.6rem;
